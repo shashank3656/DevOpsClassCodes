@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('clone') {
             steps {
-                git url: 'https://github.com/devopseng129/DevOpsClassCodes.git'
+                git url: 'https://github.com/shashank3656/DevOpsClassCodes.git'
             }
         }
         stage('compile') {
